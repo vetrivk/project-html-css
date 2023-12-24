@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: black;
+  color: aliceblue;
+  padding: 15px;
+  font-family: "Dancing Script", sans-serif;
+}
+body {
+  font-family: "Inria Sans", sans-serif;
+}
+nav h1:hover {
+  color: aqua;
+}
+h1,
+ul,
+li {
+  display: inline;
+}
+h1 {
+  margin-left: 16px;
+}
+ul {
+  margin-left: 55%;
+}
+li {
+  color: gray;
+  margin-right: 16px;
+  cursor: pointer;
+}
+li:hover {
+  color: aqua;
+}
+input {
+  width: 60%;
+  padding: 10px;
+}
+input:hover {
+  background-color: ghostwhite;
+}
+.searchbar {
+  padding: 50px;
+  text-align: center;
+}
+.box {
+  border-color: rgb(2, 162, 255);
+  border-width: 1px;
+  border-style: solid;
+  width: 220px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.products {
+  text-align: center;
+}
+.box:hover {
+  background-color: black;
+  color: aqua;
+}
+.about {
+  text-align: center;
+  margin-top: 20px;
+}
+.about p {
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+.contact h4,
+p {
+  margin: 10px;
+}
+button {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  color: gray;
+  border-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  cursor: pointer;
+  font-size: medium;
+}
+button:hover {
+  border-color: white;
+  color: red;
+}
